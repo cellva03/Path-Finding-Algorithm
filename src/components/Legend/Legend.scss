@@ -1,0 +1,79 @@
+#mainText>ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 28px 0 0;
+}
+
+#mainText div {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 0.35em;
+    margin: 0 0.42em;
+}
+
+.start {
+    background-image: url(../../images/triangletwo-right.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.DarkMode{
+    .start {
+        background-image: url(../../images/triangletwo-right.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+    }
+}
+
+.unvisited {
+    border: 1px solid dodgerblue;
+    background-color: white;
+}
+.DarkMode{
+  .unvisited {
+      border: 1px solid dodgerblue;
+      background-color: #333;
+  }
+}
+
+.target {
+    background-image: url(../../images/circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.DarkMode{
+    .target {
+        background-image: url(../../images/circle.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+    }
+}
+
+.visitedobject {
+    border: 1px solid black;
+    background: rgba(178, 67, 255, 0.75);
+}
+
+.visited {
+    border: 1px solid black;
+    background-color: #5991f8;
+}
+
+.wall {
+    border: 1px solid black;
+    background-color: rgb(2, 36, 51);
+}
+
+.shortest-path {
+    border: 1px solid black;
+    background-color: lawngreen;
+}

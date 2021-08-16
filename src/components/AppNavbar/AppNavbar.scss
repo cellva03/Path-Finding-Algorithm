@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clear-functions {
+    margin-right: 10px;
+    border: none;
+}
+
+.nav-bar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    background: #333;
+}
+.DarkMode{
+    .nav-bar{
+        background: rgb(36, 36, 36);
+    }
+}
+.drop-down{
+    margin-left: 25px;
+}
+.drop-down:hover{
+    border: 0;
+    border-bottom: 4px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-image-slice: 1;
+}
+.drop-item{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    background: #333;
+    color: white;
+}
+.drop-menu{
+    width:200px;
+    background: #333;
+}
+.drop-item:hover{
+color: white;
+background: rgb(63, 94, 251);
+background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.clear-path{
+    border: none;
+    background: transparent;
+    outline: none;
+    border-radius: 0;
+}
+
+.clear-path:focus{
+    background: transparent;
+}
+.clear-grid:focus {
+    background: transparent;
+}
+.clear-grid {
+    border: none; 
+    background: transparent;
+    outline: none;
+    border-radius: 0;
+}
+
+.clear-grid:hover{
+    background: transparent;
+    border: 0;
+    border-bottom: 4px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-image-slice: 1;
+}
+.clear-path:hover {
+    background: transparent;
+    border: 0;
+    border-bottom: 4px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-image-slice: 1;
+}
+
