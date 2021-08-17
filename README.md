@@ -6,12 +6,12 @@ I have been working so hard for this project for the last few months, so take yo
 ## Here is the preview images for my project
 ### Before visualization:
 
-![](src/image/proj1.png)
+![](src/images/proj1.png)
 
 ### After visualization(ofcourse I just changed the theme from dark mode to light mode for this image):
 This is the result after executing a maze generation algorithm and path-finding algorithm.
 
-![Screenshot 2021-02-11 225049](https://user-images.githubusercontent.com/58566745/107673376-f3ce4d80-6cbb-11eb-907c-a8255ef9555e.jpg)
+![](src/images/proj2.png)
 
 ## Features in the application
 ### Algorithms
@@ -32,7 +32,7 @@ This is the result after executing a maze generation algorithm and path-finding 
 Pretty much the same as the standard react application, so all the usual react-scripts are available to your disposal. So, over here I restricted myself to the instructions to only the essentials.
 ## 1. Clone the repository or download the zip
 ```
-git clone https://github.com/Sethuram52001/Path-Finding-Visualizer.git
+git clone https://github.com/cellva03/Path-Finding-Algorithm.git
 ```
 
 ## 2. Install the dependencies
