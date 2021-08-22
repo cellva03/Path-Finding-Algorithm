@@ -1,22 +1,18 @@
-$mobile: 320px;
-$tablet: 481px;
+$mobile: 480px;
 $laptop: 769px;
 .node {
   @media only screen and (min-width: $mobile) {
-    width: 8px;
-    height: 8px;
-  }
-  @media only screen and (min-width: $tablet) {
-    width: 17px;
-    height: 17px;
+    width: 7px;
+    height: 7px;
+    margin-top: -30px;
   }
   @media only screen and (min-width: $laptop) {
     width: 25px;
     height: 25px;
+    margin-top: -5px;
   }
   outline: 1px solid rgb(88, 181, 235);
-  display: inline-block;
-  margin-top: -5px;
+  display: inline-block; 
 }
 
 
