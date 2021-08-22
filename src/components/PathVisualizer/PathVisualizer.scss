@@ -1,3 +1,5 @@
+$mobile: 480px;
+$laptop: 769px;
 
 .DarkMode {
   .node-grid {
@@ -9,4 +11,15 @@
   margin: 20px auto;
 }
 
+.node-grid{
+  @media only screen and (min-width: $mobile) {
+  height: 10px;
+  width: 100%;
+  }
+
+  @media only screen and (min-width: $laptop) {
+    height: 100%;
+    width: 100%;
+  }
+}
 
