@@ -1,7 +1,6 @@
 # Hello there!
 Welcome to my path-finding visualizer! Obiviously it's inspired from the Clement's original path-finding visualizer.
-For those who're new to this project, it's visualization tool to visualize classic graph algorithms like Dijsktra, A* and etc. I was fascinated to build my own visualization tool after going through Professor Robert Sedgewick Algorithms course from Princeton University in coursera. 
-I have been working so hard for this project for the last few months, so take you're time to explore the repo .
+For those who're new to this project, it's visualization tool to visualize classic graph algorithms like Dijsktra, A* and etc.
 
 ## Here is the preview images for my project
 ### Before visualization:
